@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins","sans-serif";
+}
+
+html{
+    height: -webkit-fill-available;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100vh;
+    height: -webkit-fill-available;
+}
+/* when we scroll we can see both header and footer along the whole site, all this in mobile phone */
+
+.container{
+    padding: 16px;
+}
+header{
+    background-color: blue;
+    color: aliceblue;
+}
+footer{
+    background-color: gray;
+    color: aliceblue;
+}
